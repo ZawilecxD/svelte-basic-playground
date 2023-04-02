@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'HankenGrotesk-Medium';
+	font-style: normal;
+	font-weight: 500;
+	src: local('HankenGrotesk-Medium'), url('/fonts/HankenGrotesk-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'HankenGrotesk-Bold';
+	font-style: normal;
+	font-weight: 70;
+	src: local('HankenGrotesk-Bold'), url('/fonts/HankenGrotesk-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'HankenGrotesk-ExtraBold';
+	font-style: normal;
+	font-weight: 80;
+	src: local('HankenGrotesk-ExtraBold'),
+		url('/fonts/HankenGrotesk-ExtraBold.ttf') format('truetype');
+}
