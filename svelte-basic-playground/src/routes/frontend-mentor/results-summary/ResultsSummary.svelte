@@ -114,7 +114,7 @@
 		-moz-box-shadow: 2px 2px 6px -1px rgba(66, 68, 90, 1);
 		box-shadow: 2px 2px 6px -1px rgba(66, 68, 90, 1);
 		border-radius: 2em;
-		width: 40em;
+		max-width: 40em;
 		margin: 0 auto;
 	}
 
@@ -228,6 +228,27 @@
 
 			&:active {
 				background: $color-dark-blue;
+			}
+		}
+	}
+
+	@media screen and (max-width: 700px) {
+		section.summary-section-container {
+			width: 100%;
+			max-width: unset;
+			flex-direction: column;
+			border-radius: 0 0 2em 2em;
+		}
+
+		.score-section {
+			border-radius: 0 0 2em 2em;
+		}
+
+		.stat-section {
+			gap: 1em;
+
+			h3 {
+				margin: 0;
 			}
 		}
 	}
